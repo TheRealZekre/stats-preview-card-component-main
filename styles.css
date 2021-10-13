@@ -2,24 +2,43 @@
 body {
     background-color: hsl(233, 47%, 7%);
     font-family: 'Inter', sans-serif;
+        margin: 100px;
 }
 /* Wrapper is the main card */
 .wrapper {
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
+    width: 1440px;
+    padding: 25px 30px;    
+}
+.wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    float: right;
+
+    filter: 
+    
 }
 
 /* class main-heading */
 
 /* Purple word Insights */
-span {
+.span-header {
     color: hsl(277, 64%, 61%);
     font-family: 'Lexend Deca', sans-serif;
 }
 
 /* class main-paragraph */
+.main-paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 500px;
+}
 
 /* class stats */
+.span-p {
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+}
 
 
 
