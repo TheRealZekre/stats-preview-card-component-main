@@ -1,7 +1,7 @@
 /* Body css */
 body {
     background-color: hsl(233, 47%, 7%);
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    font-family: 'Inter', sans-serif;
 }
 /* Wrapper is the main card */
 .wrapper {
@@ -14,6 +14,7 @@ body {
 /* Purple word Insights */
 span {
     color: hsl(277, 64%, 61%);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 /* class main-paragraph */
