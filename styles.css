@@ -9,25 +9,19 @@ body {
 .wrapper {
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
-    width: 1440px;
-    padding: 25px 30px;   
-    border-radius: 10px; 
-    
-    
+    width: 1440px;    
+    border-radius: 10px;
 }
 
 .image {
     float: right;
-    border: hotpink solid 5px;
-    background-image: url(./images/image-header-desktop.jpg);
-    background-size: cover;
-    margin: 0;
+    background-image: url(./images/image-header-desktop.jpg);    
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: auto;
     width: 500px;
     height: 500px;
-
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+    
 }
 
 /* class main-heading */
