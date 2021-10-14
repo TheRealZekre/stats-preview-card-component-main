@@ -12,9 +12,9 @@ body {
     width: 1440px;   
     grid-template-columns: 100px 200px;  
     grid-template-rows: 100px 200px 1fr;
-    grid-template-areas: "heading . image "
-                           "main-paragraph . ."
-                           "stats  . ."  ;
+    grid-template-areas: "heading          .      image "
+                           "main-paragraph .      ."
+                           "stats          stats  stats"  ;
     
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);       
