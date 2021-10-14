@@ -2,31 +2,36 @@
 body {
     background-color: hsl(233, 47%, 7%);
     font-family: 'Inter', sans-serif;
-        margin: 100px;
+    font-size: 15px;
+    margin: 100px;
 }
 /* Wrapper is the main card */
 .wrapper {
     background-color: hsl(244, 38%, 16%);
+    /*
     background-image: url(./images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: contain;*/
     color: hsl(0, 0%, 100%);
     width: 1440px;
-    padding: 25px 30px;    
+    padding: 25px 30px;   
+    border-radius: 10px; 
 }
- /*
-.wrapper img {
-    display:block;
-    max-height: 100%;
-    max-width: 100%;
-    float: right;
 
-    filter: 
-    
-} */
+.desktop-img {
+    /*background-image: url(./images/image-header-desktop.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
 
 /* class main-heading */
+.main-heading {
+    width: 400px;
+    padding: 50px;
+}
 
 /* Purple word Insights */
 .span-header {
@@ -37,10 +42,18 @@ body {
 /* class main-paragraph */
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
-    width: 500px;
+    width: 400px;
+    padding: 50px;
 }
 
 /* class stats */
+.stats {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
 .span-p {
     text-transform: uppercase;
     color: hsla(0, 0%, 100%, 0.6);
