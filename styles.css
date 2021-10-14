@@ -8,23 +8,26 @@ body {
 /* Wrapper is the main card */
 .wrapper {
     background-color: hsl(244, 38%, 16%);
-    /*
-    background-image: url(./images/image-header-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;*/
     color: hsl(0, 0%, 100%);
     width: 1440px;
     padding: 25px 30px;   
     border-radius: 10px; 
+    
+    
 }
 
-.desktop-img {
-    /*background-image: url(./images/image-header-desktop.jpg);*/
+.image {
+    float: right;
+    border: hotpink solid 5px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-
 }
 
 /* class main-heading */
