@@ -7,18 +7,24 @@ body {
 /* Wrapper is the main card */
 .wrapper {
     background-color: hsl(244, 38%, 16%);
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
     color: hsl(0, 0%, 100%);
     width: 1440px;
     padding: 25px 30px;    
 }
+ /*
 .wrapper img {
+    display:block;
     max-height: 100%;
     max-width: 100%;
     float: right;
 
     filter: 
     
-}
+} */
 
 /* class main-heading */
 
