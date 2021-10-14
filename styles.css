@@ -35,9 +35,11 @@ body {
     background-image: url(./images/image-header-desktop.jpg);    
     background-size:contain;
     background-repeat: no-repeat;
+    background-color:hsl(277, 64%, 61%) ;
+    background-blend-mode: darken;
     margin: auto;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 450px;
     
 }
 /* Purple word Insights */
