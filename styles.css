@@ -13,11 +13,14 @@ body {
     border-radius: 10px;
 }
 
+/* Div with class="Image" inside wrapper */
 .image {
     float: right;
     background-image: url(./images/image-header-desktop.jpg);    
     background-size:contain;
     background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: hsl(277, 64%, 61%) ;
     margin: auto;
     width: 500px;
     height: 500px;
